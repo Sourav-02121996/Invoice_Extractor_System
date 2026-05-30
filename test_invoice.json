@@ -1,0 +1,71 @@
+{
+  "filename": "test_invoice.pdf",
+  "doc_type_predicted": "performance-foodservice-v1",
+  "fields": {
+    "CustomerAddress": {
+      "value": "11929 HAMILTON AVE CINCINNATI OH 45231",
+      "confidence": 0.904
+    },
+    "CustomerAddressRecipient": {
+      "value": "SKYLINE MIDWEST [CK]",
+      "confidence": 0.908
+    },
+    "InvoiceDate": {
+      "value": "2026-05-21",
+      "confidence": 0.978
+    },
+    "InvoiceTotal": {
+      "value": 97.44,
+      "confidence": 0.979
+    },
+    "PaymentTerm": {
+      "value": "SLM: 57 DANIEL KARRICK",
+      "confidence": 0.936
+    },
+    "VendorAddressRecipient": {
+      "value": "Performance Foodservice - Cincinnati",
+      "confidence": 0.9
+    },
+    "VendorPhoneNumber": {
+      "value": "(513) 421-9184 (800) 338-2377",
+      "confidence": 0.914
+    },
+    "CustomerId": {
+      "value": "57013",
+      "confidence": 0.981
+    },
+    "CustomerName": {
+      "value": "SKYLINE MIDWEST [CK]",
+      "confidence": 0.908
+    },
+    "InvoiceId": {
+      "value": "303521",
+      "confidence": 0.98
+    },
+    "VendorAddress": {
+      "value": "535 SHEPHERD AVE CINCINNATI, OH 45215",
+      "confidence": 0.875
+    },
+    "VendorName": {
+      "value": "PERFORMANCE FOODSERVICE.",
+      "confidence": 0.597
+    },
+    "TotalTax": {
+      "value": 0.0,
+      "confidence": 0.974
+    },
+    "Items": {
+      "value": null,
+      "confidence": 0.59
+    },
+    "AmountDue": {
+      "value": null,
+      "confidence": 0.954
+    }
+  },
+  "_min_confidence": 0.59,
+  "_avg_confidence": 0.8918666666666667,
+  "_model_used": "performance-foodservice-v1",
+  "exception_status": "Review",
+  "exception_reason": "low_confidence (0.59)"
+}
