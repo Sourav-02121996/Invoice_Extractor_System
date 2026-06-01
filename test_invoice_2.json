@@ -1,0 +1,67 @@
+{
+  "filename": "test_invoice_2.pdf",
+  "doc_type_predicted": "invoice",
+  "fields": {
+    "CustomerAddress": {
+      "value": "4180 THUNDERBIRD LANE\nFAIRFIELD, OH 45014",
+      "confidence": 0.888
+    },
+    "CustomerAddressRecipient": {
+      "value": "SKYLINE CHILI LLC",
+      "confidence": 0.922
+    },
+    "CustomerId": {
+      "value": "220500000100000",
+      "confidence": 0.727
+    },
+    "CustomerName": {
+      "value": "SKYLINE CHILI LLC",
+      "confidence": 0.922
+    },
+    "DueDate": {
+      "value": "2026-05-08",
+      "confidence": 0.668
+    },
+    "InvoiceDate": {
+      "value": "2026-05-06",
+      "confidence": 0.971
+    },
+    "InvoiceId": {
+      "value": "00001868753",
+      "confidence": 0.969
+    },
+    "InvoiceTotal": {
+      "value": 751.09,
+      "confidence": 0.821
+    },
+    "Items": {
+      "value": null,
+      "confidence": null
+    },
+    "RemittanceAddress": {
+      "value": "Wells\nWinston-Salem, NC 27150",
+      "confidence": 0.712
+    },
+    "RemittanceAddressRecipient": {
+      "value": "INMAR BRAND SOLUTIONS, INC.\nAcct. # 2087350280546\nFargo Routing # 121000248",
+      "confidence": 0.463
+    },
+    "VendorAddress": {
+      "value": "ONE WEST FOURTH STREET, STE 500\nWINSTON-SALEM, NC 27101",
+      "confidence": 0.875
+    },
+    "VendorAddressRecipient": {
+      "value": "INMAR BRAND SOLUTIONS, INC. (INMAR)",
+      "confidence": 0.888
+    },
+    "VendorName": {
+      "value": "INMAR BRAND SOLUTIONS, INC. (INMAR)",
+      "confidence": 0.888
+    }
+  },
+  "_min_confidence": 0.463,
+  "_avg_confidence": 0.8241538461538462,
+  "_model_used": "prebuilt-invoice",
+  "exception_status": "Review",
+  "exception_reason": "low_confidence (0.46)"
+}
